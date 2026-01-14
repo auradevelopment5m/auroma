@@ -155,7 +155,8 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Team Section */}
+      {/* Team Section - Commented out for now */}
+      {/*
       <section className="py-20 bg-card">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-2xl mx-auto mb-16">
@@ -187,6 +188,7 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+      */}
 
       {/* Certifications */}
       <section className="py-20">
