@@ -4,6 +4,7 @@ import Link from "next/link"
 import { Calendar, Clock, ArrowLeft, Share2, Facebook, Twitter } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { NewsletterSignup } from "@/components/newsletter-signup"
+import { Markdown } from "@/components/markdown"
 
 interface BlogPostPageProps {
   params: Promise<{ slug: string }>
@@ -105,7 +106,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       <section className="py-12">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <div
+            <Markdown
+              content={post.content}
               className="prose prose-lg prose-invert max-w-none
                 prose-headings:font-serif prose-headings:text-foreground
                 prose-p:text-muted-foreground prose-p:leading-relaxed
@@ -113,7 +115,6 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 prose-strong:text-foreground
                 prose-ul:text-muted-foreground prose-ol:text-muted-foreground
                 prose-blockquote:border-primary prose-blockquote:text-muted-foreground"
-              dangerouslySetInnerHTML={{ __html: post.content }}
             />
 
             {/* Share Section */}
