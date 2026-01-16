@@ -14,6 +14,10 @@ export const metadata: Metadata = {
   description:
     "Transform your space with Auroma's premium diffusers and therapeutic essential oils. Home diffusers, car diffusers, and pure essential oil blends for wellness and relaxation.",
   keywords: ["diffuser", "essential oils", "aromatherapy", "home fragrance", "car diffuser", "wellness"],
+  icons: {
+    icon: "/icon.svg",
+    apple: "/icon.svg",
+  },
 }
 
 export default function RootLayout({
