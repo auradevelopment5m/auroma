@@ -39,17 +39,17 @@ export default function AboutPage() {
     {
       name: "Sarah Mitchell",
       role: "Founder & CEO",
-      image: "/professional-woman-portrait.png",
+      image: "/placeholdercontact.png",
     },
     {
       name: "David Chen",
       role: "Head of Product",
-      image: "/professional-man-portrait.png",
+      image: "/placeholdercontact.png",
     },
     {
       name: "Maya Patel",
       role: "Aromatherapist",
-      image: "/professional-woman-aromatherapist.jpg",
+      image: "/placeholdercontact.png",
     },
   ]
 
