@@ -42,7 +42,7 @@ export function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <Link href="/" className="inline-block">
-              <span className="font-serif text-3xl font-bold">Auroma</span>
+              <img src="/logo.png" alt="Auroma" className="h-20 w-auto" />
             </Link>
             <p className="text-foreground/70 mt-4 max-w-sm leading-relaxed">
               Transform your space with premium aromatherapy. We craft exceptional diffusers and essential oils for
@@ -136,7 +136,9 @@ export function Footer() {
                 <span>hello@auroma.com</span>
               </div>
             </div>
-            <p className="text-sm text-foreground/50">© {new Date().getFullYear()} Auroma. All rights reserved.</p>
+            <p className="text-sm text-foreground/50 flex items-center gap-1">
+              © {new Date().getFullYear()} <img src="/logo.png" alt="Auroma" className="h-4 w-auto inline" />. All rights reserved.
+            </p>
           </div>
         </div>
       </div>

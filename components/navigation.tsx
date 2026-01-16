@@ -48,14 +48,11 @@ export function Navigation() {
           <div className="flex items-center justify-between h-14 lg:h-20">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2 flex-shrink-0">
-              <span
-                className={cn(
-                  "font-serif text-xl lg:text-3xl font-bold transition-colors",
-                  "text-foreground",
-                )}
-              >
-                Auroma
-              </span>
+              <img
+                src="/logo.png"
+                alt="Auroma"
+                className="h-12 lg:h-20 w-auto"
+              />
             </Link>
 
             {/* Desktop Navigation */}
