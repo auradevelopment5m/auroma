@@ -13,8 +13,8 @@ const testimonials = [
     location: "Beirut",
     image: "/placeholdercontact.png",
     rating: 5,
-    text: "The Serenity Mist Pro has completely transformed my bedroom. I fall asleep faster and wake up feeling refreshed. The quality is exceptional!",
-    product: "Serenity Mist Pro",
+    text: "The Auroma Flame FX-Luxe has completely transformed my bedroom. I fall asleep faster and wake up feeling refreshed. The quality is exceptional!",
+    product: "Auroma Flame FX-Luxe",
   },
   {
     id: 2,
@@ -22,8 +22,8 @@ const testimonials = [
     location: "Tripoli",
     image: "/placeholdercontact.png",
     rating: 5,
-    text: "I was skeptical about car diffusers, but the AutoScent Elite changed my mind. My commute is now my favorite part of the day. Highly recommend!",
-    product: "AutoScent Elite",
+    text: "I was skeptical about car diffusers, but the FX-Pine changed my mind. My commute is now my favorite part of the day. Highly recommend!",
+    product: "Auroma Flame FX-Pine",
   },
   {
     id: 3,
