@@ -139,6 +139,9 @@ export function Footer() {
             <p className="text-sm text-foreground/50 flex items-center gap-1">
               © {new Date().getFullYear()} <img src="/logo.png" alt="Auroma" className="h-4 w-auto inline" />. All rights reserved.
             </p>
+            <p className="text-sm text-foreground/50 mt-2">
+              Made by <a href="https://instagram.com/auradevelopment.worldwide" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline underline-offset-4">Aura Development</a>
+            </p>
           </div>
         </div>
       </div>
